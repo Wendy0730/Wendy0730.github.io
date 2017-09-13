@@ -1,4 +1,4 @@
-console.log('Loaded bookmarklet!!!');
+console.log('Loaded background changing bookmarklet!!!');
 
 
 javascript:(function(){
@@ -31,7 +31,18 @@ function initMyBookmarklet(){
     (window.myBookmarklet = function (){
 
         //YOUR CODE GOES HERE!
+       
 
+       var p=document.getElementsByTagName('*');
+       for (var i =0;i<p.length ;i++) {
+        if (p[i].style.fontSzie) {
+            var s=parseInt(p[i].style.fontSzie.replace("px",""));
+
+        }else{
+            var s=12;}p[i].style.fontSzie=s+"px"
+          0;i<p[i]
+        }
+       }
 
 
     })();
@@ -39,3 +50,4 @@ function initMyBookmarklet(){
 }
 
 })();
+
