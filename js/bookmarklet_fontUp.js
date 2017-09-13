@@ -34,15 +34,11 @@ function initMyBookmarklet(){
        
 
        var p=document.getElementsByTagName('*');
-       for (var i=0;i<p.length ;i++) {
-        if (p[i].style.fontSzie) {
-            var s=parseInt(p[i].style.fontSzie.replace("px",""));
-
-        }else{
-            var s=12;}p[i].style.fontSize=s+"px"
-          
-        }
-       }
+        for(i=0;i<p.length;i++){
+            if(p[i].style.fontSize){
+                var s=parseInt(p[i].style.fontSize.replace("px",""));
+            } else {
+                var s=12;}s+=2;p[i].style.fontSize=s+"px"}
 
 
     })();
