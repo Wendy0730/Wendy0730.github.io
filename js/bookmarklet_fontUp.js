@@ -39,8 +39,8 @@ function initMyBookmarklet(){
             var s=parseInt(p[i].style.fontSzie.replace("px",""));
 
         }else{
-            var s=12;}p[i].style.fontSzie=s+"px"
-          0;i<p[i]
+            var s=12;}p[i].style.fontSize=s+"px"
+          
         }
        }
 
