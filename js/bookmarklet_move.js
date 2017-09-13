@@ -1,39 +1,4 @@
-console.log('Loaded background changing bookmarklet!!!');
-
-
-javascript:(function(){
-
-
-var v ="2.2.4"; // version of jquery we want to use
-
-if (window.jQuery== undefined || window.jQuery.fn.jquery < v){
-
-    var done = false;
-    var script = document.createElement("script");
-    script.src="http://ajax.googleapis.com/ajax/libs/jquery/" + v + "/jquery.min.js"; // load version of jQuery we specify
-    script.onload = script.onreadystatechange = function(){
-
-        if (!done && (!this.readyState || this.readyState=="loaded" || this.readyState =="complete")){
-
-        done = true;
-        initMyBookmarklet(); //If jquery is loaded now run my script
-
-        }
-    };
-document.getElementsByTagName("head")[0].appendChild(script);
-
-
-}else{
-    initMyBookmarklet();
-}
-
-function initMyBookmarklet(){
-    (window.myBookmarklet = function (){
-
-        //YOUR CODE GOES HERE!
-       
-
-       / the css rules that we want to copy
+/ the css rules that we want to copy
 var all_styles = ["background","backgroundAttachment","backgroundColor","backgroundImage","backgroundPosition","backgroundRepeat","border","borderBottom","borderBottomColor","borderBottomStyle","borderBottomWidth","borderCollapse","borderColor","borderLeft","borderLeftColor","borderLeftStyle","borderLeftWidth","borderRight","borderRightColor","borderRightStyle","borderRightWidth","borderSpacing","borderStyle","borderTop","borderTopColor","borderTopStyle","borderTopWidth","borderWidth","borderImage","borderRadius","bottom","boxShadow","captionSide","clear","clip","color","content","cssFloat","cursor","direction","display","fill","font","fontFamily","fontSize","fontSizeAdjust","fontStretch","fontStyle","fontVariant","fontWeight","height","left","letterSpacing","lineHeight","listStyle","listStyleImage","listStylePosition","listStyleType","margin","marginBottom","marginLeft","marginRight","marginTop","maxHeight","maxWidth","minHeight","minWidth","opacity","outline","outlineColor","outlineStyle","outlineWidth","overflow","padding","paddingBottom","paddingLeft","paddingRight","paddingTop","position","quotes","right","size","tableLayout","textAlign","textDecoration","textIndent","textOutline","textShadow","textTransform","top","transform","verticalAlign","visibility","whiteSpace","width","wordSpacing","zIndex"];
 
 i = 0;
@@ -74,11 +39,3 @@ scrambler = setInterval(function(){
  i++;
 
 },50);
-
-
-    })();
-
-}
-
-})();
-
