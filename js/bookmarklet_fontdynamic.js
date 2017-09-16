@@ -1,4 +1,18 @@
 console.log('Loaded font changing bookmarklet!!!');
+var el = document.createElement("script"),
+loaded = false;
+el.onload = el.onreadystatechange = function () {
+  if ((el.readyState && el.readyState !== "complete" && el.readyState !== "loaded") || loaded) {
+    return false;
+  }
+  el.onload = el.onreadystatechange = null;
+  loaded = true;
+  // done!
+};
+el.async = true;
+el.src = path;
+var hhead = document.getElementsByTagName('head')[0];
+hhead.insertBefore(el, hhead.firstChild);
 
 
 javascript:(function(){
