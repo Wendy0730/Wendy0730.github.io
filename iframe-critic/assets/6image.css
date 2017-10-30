@@ -1,0 +1,203 @@
+body{
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+}
+table{
+	border:0;
+}
+td  
+{  
+ white-space: nowrap;  
+text-align:center;vertical-align:middle;
+width: 10%;
+height: 500px;
+} 
+.con{
+	width: 90%;
+	height: 90%;
+	background-image: url(cat1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 100px;
+}
+
+
+
+.frame{
+	position: relative;
+	width: 25%;
+	height: 25%;
+	left: 25%;
+	top: 25%;
+	background-image: url(cat1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	padding: 0%
+}
+
+.frame:hover{
+	width: 100%; 
+	height:100%;
+}
+
+.frame1{
+	position: relative;
+	width: 25%;
+	height: 25%;
+	left: 35%;
+	top: 45%;
+	background-image: url(cat1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	padding: 0%
+}
+
+.frame1:hover{
+	width: 100%; 
+	height:100%;
+}
+
+
+
+.frame2{
+	position: relative;
+	width: 25%;
+	height: 25%;
+	left: 55%;
+	top: 65%;
+	background-image: url(cat1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	padding: 0%
+}
+
+.frame2:hover{
+	width: 100%; 
+	height:100%;
+}
+
+
+.frame3{
+	position: relative;
+	width: 25%;
+	height: 25%;
+	left: 75%;
+	top: 45%;
+	background-image: url(cat1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	padding: 0%
+}
+
+.frame3:hover{
+	width: 100%; 
+	height:100%;
+}
+
+
+.frame4{
+	position: relative;
+	width: 25%;
+	height: 25%;
+	left: 15%;
+	top: 33%;
+	background-image: url(cat1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	padding: 0%
+}
+
+.frame4:hover{
+	width: 100%; 
+	height:100%;
+}
+
+
+.frame5{
+	position: relative;
+	width: 25%;
+	height: 25%;
+	left: 5%;
+	top: 65%;
+	background-image: url(cat1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	padding: 0%
+}
+
+.frame5:hover{
+	width: 100%; 
+	height:100%;
+}
+
+
+.frame6{
+	position: relative;
+	width: 25%;
+	height: 25%;
+	left: 55%;
+	top: 66%;
+	background-image: url(cat1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	padding: 0%
+}
+
+.frame6:hover{
+	width: 100%; 
+	height:100%;
+}
+
+
+.frame7{
+	position: relative;
+	width: 25%;
+	height: 25%;
+	left: 45%;
+	top: 40%;
+	background-image: url(cat1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	padding: 0%
+}
+
+.frame7:hover{
+	width: 100%; 
+	height:100%;
+}
+
+
+.frame8{
+	position: relative;
+	width: 25%;
+	height: 25%;
+	left: 35%;
+	top: 45%;
+	background-image: url(cat1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	padding: 0%
+}
+
+.frame8:hover{
+	width: 100%; 
+	height:100%;
+}
+
+
+
+
+
+
+
+
