@@ -75,7 +75,7 @@ javascript: (function() {
                 a = getRandomInt(0, messyPart.length - 1);
                 b = getRandomInt(0, messyPart.length - 1)
             }
-            return messyPart.slice(0, a) + messyPart[b] + messyPart.slice(a + 1, b) + messyPart[a] + messyPart.slice(b + 1)
+            return 1
         }
 
         function getRandomInt(min, max) {
