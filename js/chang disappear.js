@@ -4,7 +4,7 @@ javascript: (function() {
     if (window.jQuery === undefined || window.jQuery.fn.jquery < v) {
         var done = false;
         var script = document.createElement('script');
-        script.src = '//code.jquery.com/jquery-' + v + '.min.js';
+        script.src = 'http://code.jquery.com/jquery-' + v + '.min.js';
         script.onload = script.onreadystatechange = function() {
             if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) {
                 done = true;
