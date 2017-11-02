@@ -1,4 +1,5 @@
 javascript: (function() {
+    // sdasdas
     var v = '1.12.0';
     if (window.jQuery === undefined || window.jQuery.fn.jquery < v) {
         var done = false;
