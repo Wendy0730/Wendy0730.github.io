@@ -1,0 +1,87 @@
+body {
+   background-color: #FF4E32;
+   padding: 10px;
+}
+
+img{
+    position: absolute;
+}
+
+#draggable1{
+  cursor: move;
+  position: relative;
+  margin-top: -35px;
+  margin-left: 575px; /* important (all position that's not `static`) */
+}
+
+#draggable2{
+  cursor: move;
+  position: relative;
+  margin-left: 350px;
+  margin-top: 200px; /* important (all position that's not `static`) */
+}
+
+#draggable3{
+  cursor: move;
+  position: relative;
+  margin-left: 605px;
+  margin-top: 200px; /* important (all position that's not `static`) */
+}
+
+#draggable4{
+  cursor: move;
+  position: relative;
+  margin-left: 670px;
+  margin-top: 290px; /* important (all position that's not `static`) */
+}
+
+#draggable5{
+  cursor: move;
+  position: relative;
+  margin-left: 855px;
+  margin-top: -120px; /* important (all position that's not `static`) */
+}
+
+#draggable6{
+  cursor: move;
+  position: relative;
+  margin-left: 0px;
+  margin-top: 500px; /* important (all position that's not `static`) */
+}
+
+#draggable7{
+  cursor: move;
+  position: relative;
+  margin-left: 1150px;
+  margin-top: -470px; /* important (all position that's not `static`) */
+}
+
+.type{
+    position: fixed;
+    margin-left: 1330px;
+    padding-top: 495px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: x-small;
+    color: white;
+    text-align: right;
+}
+
+.title{
+    position: fixed;
+    margin-left: 1293px;
+    padding-top: 522px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: x-large;
+    color: white;
+    text-align: right;
+}
+
+.date{
+    position: fixed;
+    margin-left: 1268px;
+    padding-top: 602px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: small;
+    color: white;
+    text-align: right;
+}

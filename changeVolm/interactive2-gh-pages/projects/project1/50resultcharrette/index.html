@@ -1,0 +1,340 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>50 Results Charrette</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="assets/main.css" type="text/css" />
+  	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  	<link rel="stylesheet" href="/resources/demos/style.css">
+  	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet">
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+    <script src="assets/script.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  	<script type="text/javascript" src="js/jquery.plugin.js"></script> 
+    <script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+        
+    <script type = "text/javascript" language = "javascript"></script>
+	
+</head>
+
+<body style="background-color: black">
+    <div class="container">
+        <div class="row">
+            <div class="item" id="button-1">
+            <p> 1 </p>
+            <h1> ENLARGE TEXT </h1>
+            </div>
+
+            <div class="item" id="button-2">
+            <p> 2 </p>
+            <h1> CHANGE BG COLOR </h1>
+            </div>
+
+            <div class="item" id="button-3">
+            <p> 3 </p>
+            <h1> CHANGE BG OPACITY </h1>
+            </div>
+
+            <div class="item" id="button-4">
+            <p> 4 </p>
+            <h1> CHANGE HEIGHT </h1>
+            </div>
+
+            <div class="item" id="button-5">
+            <p> 5 </p>
+            <h1> CHANGE WIDTH </h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="item" id="button-6">
+            <p> 6 </p>
+            <h1> FADE OUT </h1>
+            </div>
+
+            <div class="item" id="button-7">
+            <p> 7 </p>
+            <h1> POP UP </h1>
+            </div>
+
+            <div class="item" id="button-8">
+            <p> 8 </p>
+            <h1> NEW TEXT </h1>
+            </div>
+
+            <div class="item" id="button-9">
+            <p> 9 </p>
+            <h1> CORNERS </h1>
+            </div>
+
+            <div class="item" id="button-10">
+            <p> 10 </p>
+            <h1> BORDER </h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="item" id="button-11">
+            <p> 11 </p>
+            <h1> DOUBLE CLICK </h1>
+            </div>
+
+            <div class="item" id="button-12">
+            <p> 12 </p>
+            <h1> HOVER </h1>
+            </div>
+
+            <div class="item" id="button-13">
+            <p> 13 </p>
+            <h1> CROSSHAIR </h1>
+            </div>
+
+            <div class="item" id="button-14">
+            <p> 14 </p>
+            <h1> MOVE HORIZONTALLY </h1>
+            <button id="left">LEFT</button>
+            <br></br>
+            <button id="right">RIGHT</button>
+            </div>
+
+            <div class="item" id="button-15">
+            <p> 15 </p>
+            <h1> MOVE VERTICALLY </h1>
+            <button id="up">UP</button>
+            <br></br>
+            <button id="down">DOWN</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="item" id="button-16">
+            <p> 16 </p>
+            <h1> LIGHTS ON </h1>
+            </div>
+
+            <div class="item" id="button-17">
+            <p> 17 </p>
+            <h1> LIGHTS OFF </h1>
+            </div>
+
+            <div class="item" id="button-18">
+            <p> 18 </p>
+            <h1> HIGHLIGHT </h1>
+            </div>
+
+            <div class="item" id="button-19">
+            <p> 19 </p>
+			<h1> DESELECT </h1>
+            </div>
+
+            <div class="item" id="button-20">
+            <p> 20 </p>
+			<h1> TYPE </h1>
+            <textarea>TYPE HERE</textarea>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="item" id="button-21">
+            <p> 21 </p>
+			<h1> AUDIO </h1>
+			<audio id="audio" src="assets/21.mp3" autostart="false" ></audio>
+    		<button onclick="playSound();"> PLAY AUDIO </button>
+			</audio>
+            </div>
+
+            <div class="item" id="button-22">
+            <p> 22 </p>
+			<h1> CLICK COUNTER </h1>
+            <button type="button" onClick="onClick()">CLICK ME</button>
+   			<p>CLICKS: <a id="clicks">0</a></p>
+            </div>
+
+            <div class="item" id="button-23">
+            <p> 23 </p>
+			<h1> LOADING </h1>
+            </div>
+
+            <div class="item" id="button-24">
+            <p> 24 </p>
+			<h1> DRAG </h1>
+        
+            </div>
+
+            <div class="item" id="button-25">
+            <p> 25 </p>
+			<h1> BOUNCE </h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="item" id="button-26">
+            <p> 26 </p>
+			<h1> ZOOM OUT </h1>
+            </div>
+
+            <div class="item" id="button-27">
+            <p> 27 </p>
+			<h1> ZOOM IN </h1>
+            </div>
+
+            <div class="item" id="button-28">
+            <p> 28 </p>
+			<h1> SHAKE </h1>
+            </div>
+
+            <div class="item" id="button-29">
+            <p> 29 </p>
+			<h1> FOLD </h1>
+            </div>
+
+            <div class="item" id="button-30">
+            <p> 30 </p>
+			<h1> DOWNLOAD </h1>
+            <a href="assets/30.jpg" download>
+            <img border="0" src="assets/30.jpg" alt="30 Cats" width="250" height="125">
+            </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="item" id="button-31">
+            <p> 31 </p>
+			<h1> CHECK </h1>
+            <form>
+  			<input type="checkbox"> <br>
+  			<input type="checkbox"> <br>
+  			<input type="checkbox"> <br>
+  			<input type="checkbox"> <br>
+  			<input type="checkbox"> <br>
+			</form>
+            </div>
+
+            <div class="item" id="button-32">
+            <p> 32 </p>
+            <h1> TRANSFER </h1>
+            <div class = "green"></div>
+            </div>
+
+            <div class="item" id="button-33">
+            <p> 33 </p>
+            <h1> ? </h1>
+            </div>
+
+            <div class="item" id="button-34">
+            <p> 34 </p>
+            <h1> RESIZE </h1>
+            <div id = "resizable" class = "ui-widget-content"> </div>
+            </div>
+
+            <div class="item" id="button-35">
+            <p> 35 </p>
+            <h1> EXPLODE </h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="item" id="button-36">
+            <p> 36 </p>
+            <h1> CHANGE TYPEFACE </h1>
+            </div>
+
+            <div class="item" id="button-37">
+            <p> 37 </p>
+            <h1> REDUCE FONT SIZE </h1>
+            </div>
+
+            <div class="item" id="button-38">
+            <p> 38 </p>
+            <h1> REMOVE HEADER </h1>
+            </div>
+
+            <div class="item" id="button-39">
+            <p> 39 </p>
+            <h1> HIDE / SHOW </h1>
+            <input id = "hide" type = "button" value = "HIDE" />
+            <input id = "show" type = "button" value = "SHOW" />
+            <div class = "mydiv">
+            </div>
+            </div>
+
+            <div class="item" id="button-40">
+            <p> 40 </p>
+            <h1> CLIP </h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="item" id="button-41">
+            <p> 41 </p>
+            <h1> PUFF </h1>
+            </div>
+
+            <div class="item" id="button-42">
+            <p> 42 </p>
+            <h1> BACK TO TOP </h1>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">BACK TO TOP</button>
+            </div>
+
+            <div class="item" id="button-43">
+            <p> 43 </p>
+            <h1> CURRENT TIME </h1>
+            <button onclick="getElementById('demo').innerHTML = Date()"> DAY, DATE, AND TIME </button>
+            <p id="demo"></p>
+            </div>
+
+            <div class="item" id="button-44">
+            <p> 44 </p>
+            <h1> STROBE </h1>
+            </div>
+
+            <div class="item" id="button-45">
+            <p> 45 </p>
+            <h1> HIDE </h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="item" id="button-46">
+            <p> 46 </p>
+            <h1> PRINT </h1>
+            </div>
+
+            <div class="item" id="button-47" onClick="window.location.reload()">
+            <p> 47 </p>
+            <h1> REFRESH </h1>
+            </div>
+
+            <div class="item" id="button-48" onclick="location.href = 'about:blank'">
+            <p> 48 </p>
+            <h1> BLANK PAGE </h1>
+            </div>
+
+            <div class="item" id="button-49" onclick="location.href = 'https://google.com/'">
+            <p> 49 </p>
+            <h1> GOOGLE </h1>
+            </div>
+
+            <div class="item" id="button-50" >
+            <p> 50 </p>
+            <h1> CLOSE TAB </h1>
+            </div>
+        </div>
+    </div>
+    <div id = "title"> 50 RESULTS CHARRETTE </div>
+    <div id="footer">
+        <p> rebecca kao | fall 2017 </p>
+    </div>
+
+</body>
+</html>
